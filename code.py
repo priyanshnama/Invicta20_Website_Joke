@@ -14,7 +14,7 @@ Head = ["firstname\t", "lastname\t", "email\t\t\t", "college\t", "city\t", "phon
 log.writelines(Head)
 
 code = input("Enter Your Refral code: ")
-points = int(input("how much point you want to generate: "))
+points = int((int(input("how much point you want to generate: ")))/10)
 point = int(points/10)
 # fields
 for i in range(point):
